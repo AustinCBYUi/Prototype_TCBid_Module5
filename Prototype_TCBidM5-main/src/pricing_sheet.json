@@ -1,0 +1,23 @@
+{
+    "linear_footage_rates": {
+        "monolithic_slab": [1307, 1380, 1454, 1527, 1601, 1674, 1758, 1842, 1926, 2010, 2094, 2178],
+        "floating_slab": [1359, 1506, 1653, 1800, 1947, 2094, 2252, 2409, 2567, 2724, 2882, 3039],
+        "crawl_space": [1097, 1223, 1349, 1475, 1601, 1727, 1853, 1979, 2105, 2231, 2357, 2483],
+        "partial_basement": [1699, 1883, 2067, 2251, 2434, 2618, 2815, 3011, 3209, 3405, 3603, 3799],
+        "full_basement": [2040, 2260, 2480, 2700, 2921, 3141, 3378, 3614, 3851, 4086, 4323, 4559]
+    },
+    "over_300_rate": {
+        "monolithic_slab": 6,
+        "floating_slab": 8,
+        "crawl_space": 7,
+        "partial_basement": 10,
+        "full_basement": 12
+    },
+    "multipliers": {
+        "full_liquid": 1.5,
+        "full_liquid_bait": 2,
+        "perimeter_plus_plus_bait": 1.3,
+        "jobs_over_2500": 1,
+    "sentricon_only": 0.6
+    }
+}
