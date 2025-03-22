@@ -5,7 +5,7 @@ mod pricing_data;
 fn main() -> Result<(), eframe::Error> {
     let options = eframe::NativeOptions::default();
     eframe::run_native(
-        "Pest Control Bid Calculator",
+        "Termite Bid Calculator",
         options,
         Box::new(|_cc| Box::new(MyApp::default())),
     )
@@ -147,5 +147,3 @@ impl MyApp {
         (base_price as f32 + extra_cost) * multiplier
     }
 }
-
-
